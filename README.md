@@ -50,7 +50,7 @@ The easiest way to install the app on your Android phone is to download the APK 
 ### Building & Running
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/CountdownApp.git
+   git clone https://github.com/uxkwn/CountdownApp.git
    cd CountdownApp
    ```
 2. **Open in Android Studio**:
