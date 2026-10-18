@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">CountdownApp</string>
+    <string name="event_countdown_header">Event Countdown</string>
+    <string name="event_title_hint">Event Title (e.g. Vacation, Birthday)</string>
+    <string name="select_target_date">Select Target Date</string>
+    <string name="no_date_selected">No date selected</string>
+    <string name="start_update_countdown">Start / Update Countdown</string>
+    <string name="cancel_countdown">Cancel Countdown</string>
+    <string name="active_countdown_label">ACTIVE COUNTDOWN</string>
+    <string name="please_enter_title">Please enter an event title</string>
+    <string name="please_select_date">Please select a target date</string>
+    <string name="notification_permission_required">Notification permission is required to display permanent countdowns</string>
+    <string name="notification_text_color_label">Notification Text Color</string>
+    <string name="color_default">Default</string>
+    <string name="color_white">White</string>
+    <string name="color_black">Black</string>
+    <string name="color_red">Red</string>
+    <string name="color_blue">Blue</string>
+    <string name="color_green">Green</string>
+    <string name="color_orange">Orange</string>
+    <string name="color_purple">Purple</string>
+    <string name="app_logo_description">App Logo</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+
+    <!-- Circle Background -->
+    <path
+        android:fillColor="#1E88E5"
+        android:pathData="M48,0 A48,48 0 1,1 47.9,0 Z" />
+
+    <!-- Outer Clock Rim / Circle -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4"
+        android:pathData="M48,16 A32,32 0 1,1 47.9,16 Z" />
+
+    <!-- Hourglass / Sandglass Icon -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M34,26 H62 V32 L51,46 L62,60 V66 H34 V60 L45,46 L34,32 Z M38,30 V32 L46,43 L38,30 Z M58,30 H38 L48,43 Z M48,49 L38,62 H58 Z" />
+
+    <!-- Accent Countdown Flag / Spark -->
+    <path
+        android:fillColor="#FFCA28"
+        android:pathData="M48,10 L52,18 L48,16 L44,18 Z" />
+</vector>
