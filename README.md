@@ -1,20 +1,31 @@
-# Event Countdown App ⏳
+# Event Countdown App
 
 An Android application that displays a **permanent ongoing countdown notification** in your system notification shade for an upcoming event or task in days (e.g. `"15 Days"` or `"15 days till Vacation"`).
 
 ---
 
-##  Features
+## Download & Install APK
 
--  **Target Date Selection**: Easily input an event name and pick a target date.
--  **Permanent Ongoing Notification**: Keeps a persistent notification in your system notification shade counting down remaining days.
--  **Adaptive Notification Layout**:
--  **Minimized State**: Displays only the days remaining (e.g., `15 Days`).
--  **Expanded State**: Reveals full details (e.g., `15 days till Vacation`).
--  **In-App Text Color Customization**: Customize the text color of your countdown notification directly in the app (Default, White, Black, Red, Blue, Green, Orange, Purple).
--  **Daily Background Updates**: Powered by Android **WorkManager** to automatically update remaining days at midnight.
--  **Device Reboot Support**: Automatically restores active countdown notifications after device reboot (`BOOT_COMPLETED`).
--  **Dismissal Protection**: Auto-restores notification if accidentally swiped away while the countdown is active.
+The easiest way to install the app on your Android phone is to download the APK from the GitHub Releases page:
+
+**[Download Latest APK from Releases](../../releases/latest)**
+
+1. Download `CountdownApp.apk` directly on your phone.
+2. Tap the downloaded file to install. *(If prompted, allow installation from your browser/file manager).*
+
+---
+
+## Features
+
+- **Target Date Selection**: Easily input an event name and pick a target date.
+- **Permanent Ongoing Notification**: Keeps a persistent notification in your system notification shade counting down remaining days.
+- **Adaptive Notification Layout**:
+  - **Minimized State**: Displays only the days remaining (e.g., `15 Days`).
+  - **Expanded State**: Reveals full details (e.g., `15 days till Vacation`).
+- **In-App Text Color Customization**: Customize the text color of your countdown notification directly in the app (Default, White, Black, Red, Blue, Green, Orange, Purple).
+- **Daily Background Updates**: Powered by Android **WorkManager** to automatically update remaining days at midnight.
+- **Device Reboot Support**: Automatically restores active countdown notifications after device reboot (`BOOT_COMPLETED`).
+- **Dismissal Protection**: Auto-restores notification if accidentally swiped away while the countdown is active.
 
 ---
 
@@ -54,3 +65,4 @@ An Android application that displays a **permanent ongoing countdown notificatio
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
+
